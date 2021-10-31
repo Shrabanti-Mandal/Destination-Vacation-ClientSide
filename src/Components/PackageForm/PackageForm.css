@@ -1,0 +1,7 @@
+.package-details {
+  display: flex;
+  margin-top: 10%;
+}
+.package-details img {
+  width: 60%;
+}

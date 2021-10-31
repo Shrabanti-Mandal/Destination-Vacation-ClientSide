@@ -1,0 +1,28 @@
+.car-rentals {
+  background-color: #ccf6ff;
+  /* padding: 5%; */
+  color: white;
+  border-radius: 3%;
+  margin: 5%;
+}
+
+.car-heading {
+  color: #eb9929;
+}
+
+.carbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3%;
+}
+.box {
+  margin: 5%;
+}
+
+@media only screen and (max-width: 688px) {
+  .carbox {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
